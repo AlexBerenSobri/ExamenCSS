@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+    <link style.css>
+    
+    <script src="https://kit.fontawesome.com/418fb89da5.js" crossorigin="anonymous"></script>
+    
+    <link href="style.css" rel="stylesheet">
+    
+    <link href="style.css" rel="stylesheet">
+    
+    <title>freeCodeCamp.org Survey Form
+    </title>
+    
+  </head>
+  
+  <body>
+    
+    <div id="main">
+      
+      <div id="title-wrapper">
+        <h1 id="title"><span>Hogwarts</span></h1>
+        <p id="description"><span>School of Witchcraft and Wizardry</span></p>
+      </div>
+      
+      <form id="survey-form" autocomplete="off">
+        
+        <div class="scroll-top"></div>
+        <div class="scroll-bottom"></div>
+        <div class="scroll-left"></div>
+        <div class="scroll-right"></div>
+
+        <div class="form-field input-field">
+          <label id="name-label">Name</label>
+          <input id="name" placeholder="Harry Potter" type="name" required autofocus>
+        </div>
+        
+        <div class="form-field input-field">
+          <label id="email-label">Email</label>
+          <input id="email" placeholder="potter@hogwarts.edu" type="email" required>
+        </div>
+        
+        <div class="form-field input-field">
+          <label id="number-label">Age</label>
+          <input id="number" placeholder="10" type="number" min="10" max="12" required>
+        </div>
+        
+        <div class="form-field radio-field">
+          
+          <p id="radio-label">Preferred house</p>
+          
+          <div id="radio-center">
+          
+            <div id="radio-column-one">
+              <label class="container-radio">Gryffindor
+                <input type="radio" name="radio" value="gryffindor" checked>
+                <span class="checkmark"></span>
+              </label>
+            <label class="container-radio">Ravenclaw
+              <input type="radio" name="radio" value="ravenclaw">
+              <span class="checkmark"></span>
+            </label>
+            </div>
+
+            <div id="radio-column-two">
+            <label class="container-radio">Slytherin
+              <input type="radio" name="radio" value="slytherin">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container-radio">Hufflepuff
+              <input type="radio" name="radio" value="hufflepuff">
+              <span class="checkmark"></span>
+            </label>
+            </div>
+          
+          </div>
+            
+        </div>
+        
+        <div class="form-field">
+          <label id="dropdown-label">I will bring a...</label>
+          <select id="dropdown" name="pet">
+            <option value="cat">Cat</option>
+            <option value="toad">Toad</option>
+            <option value="owl">Owl</option>
+          </select>
+        </div>
+        
+        <div class="form-field">
+          
+          <p id="checkbox-label">Preferred subjects</p>
+          
+          <label class="container-checkbox">Transfiguration
+            <input type="checkbox" value="transfiguration" checked>
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="container-checkbox">Charms
+            <input type="checkbox" value="charms">
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="container-checkbox">Potions
+            <input type="checkbox" value="potions">
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="container-checkbox">History of Magic
+            <input type="checkbox" value="history">
+            <span class="checkmark"></span>
+          </label>
+          
+          <label class="container-checkbox">Defence Against the Dark Arts
+            <input type="checkbox" value="defence">
+            <span class="checkmark"></span>
+          </label>
+          
+          <label class="container-checkbox">Astronomy
+            <input type="checkbox" value="astronomy">
+            <span class="checkmark"></span>
+          </label>
+          
+          <label class="container-checkbox">Herbology
+            <input type="checkbox" value="herbology">
+            <span class="checkmark"></span>
+          </label>
+
+        </div>
+
+        <div id="textarea-wrapper">
+          <label id="textarea-label">Presentation letter</label>
+          <textarea id="textarea" required></textarea>
+        </div>
+
+        <div id="submit-btn">
+          <button type="submit" id="submit">Submit</button>
+        </div>
+
+      </form>
+
+    </div>
+
+  </body>
+
+</html>
