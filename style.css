@@ -22,7 +22,7 @@ body {
   
   #title span {
     background: -webkit-linear-gradient(#fcfbbc 20%, #e4aa26 40%, #bc5f26 80%);
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
   }
   
